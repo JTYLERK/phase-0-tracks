@@ -1,46 +1,90 @@
-<form name="adventure" action="" method="post">
-  <fieldset>
-    <div>
-      <label>Full name:</label>
-      <input type="text" name="fullname">
-    </div>
+<!DOCTYPE html>
 
-    <div>
-      <label>Email:</label>
-      <input type="email" name="email">
-    </div>
+<html>
 
-    <div>
-      <label>Password:</label>
-      <input type="password" name="password">
-    </div>
-  </fieldset>
+<head>
+  <title>Taco order form</title>
+</head>
 
-  <fieldset>
-    <div>
-      <label>Adventure name:</label>
-      <input type="text" name="adv-name" placeholder="Name this adventure">
-    </div>
+<body>
+  <h1>Thanks for using our handy web taco order form.  Please fill out all the fields and submit the form.</h1>
+  <p>
+    <img src="delicious_tacos.jpg" alt="imagine a picture of delicious tacos right here" height="300" width="500">
+  </p>
+  <p>
+    <a href="https://creativecommons.org/licenses/by/2.0/">Thanks</a> to y6y6y6 for this delicious <a href="https://www.flickr.com/photos/y6y6y6/3824433628">photo</a> of San Diego's finest tacos.
+  </p>
 
-    <div>
-      <label>Type of bicycle:</label>
-      <select name="bike">
-        <option value="road">Road</option>
-        <option value="road">Mountain</option>
-        <option value="road">Cyclocross</option>
-      </select>
-    </div>
+  <form name="tacos" action="success.html" method="post">
+    <fieldset>
+      <legend> Taco fillings </legend>
+      <p>
+        <label>
+          <input type="Text" name="filling" value="beef"> Beef
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" name="filling" value="chicken"> Chicken
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" name="filling" value="carnitas"> Carnitas
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" name="filling" value="lettuce"> Lettuce
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" name="filling" value="cheese"> Cheese
+        </label>
+      </p>
+      <p>
+        <label>
+          <input type="checkbox" name="filling" value="onions"> Onions
+        </label>
+      </p>
+      <div>
+        <label>Number of tacos:</label>
+        <input type="number" name="quantity">
+      </div>
+    </fieldset>
+    <p>
+      <label>
+        Delivery Instructions:
+        <textarea name="comments"></textarea>
+      </label>
+    </p>
+    <p>
+      <label>
+        Telephone:
+        <input type="tel" name="custtelnumber">
+      </label>
+    </p>
+    <p>
+      <label>
+        Email:
+        <input type="email" name="custemail">
+      </label>
+    </p>
+    <p>
+      <label>
+        Name:
+        <input name="custname">
+      </label>
+    </p>
+    <p>
+      <label>
+        Preferred delivery time (from 12-3pm only):
+        <input type="time" min="12:00" max="15:00" name="pickuptime">
+      </label>
+    </p>
+    <button type="submit">Place your order</button>
+  </form>
+</body>
 
-    <div>    
-      <label>Choose a date:</label>
-      <input type="date" name="date">
-    </div>
-
-    <div>
-      <input type="checkbox" name="cb-agree" value="agree">
-      I am prepared to lead this adventure.
-    </div>
-  </fieldset>
-  
-  <button type="submit">Save this adventure</button>
-</form>
+</html>
