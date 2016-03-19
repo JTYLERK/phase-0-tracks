@@ -4,8 +4,8 @@ section#contact-info {
   right: 0px;
   text-align: center;
   width: 100%;
-  background-color: white;
-  border-bottom: 1px solid black;
+  background-color: lightgrey;
+  border-bottom: 1px dotted black;
   padding: 20px;
 }
 
