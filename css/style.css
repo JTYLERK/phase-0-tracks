@@ -1,0 +1,22 @@
+* { font-family: helvetica;
+}
+
+h1 {
+  color: gold;
+}
+
+cite {
+  display: block;
+  font-weight: bold;
+  padding-top: 10px;
+}
+	
+blockquote {
+  border: 1px solid black;
+  padding: 15px;
+  width: 180px;
+  border-top: 14px solid grey;
+  margin: 5px;
+  float: left; 
+  height: 220px;
+}
