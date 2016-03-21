@@ -1,0 +1,48 @@
+#contact-info {
+	font-size: .8em;
+}
+
+.job {
+	background-color: #e9e5dc;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.shrink {
+	font-size: .8em;
+}
+
+/* Research with pair questions
+1. What does the "Cascading" part of Cascading Style Sheets 
+mean? When there is a conflict between two CSS rules 
+that select the same element, how does your browser
+decide which rule to use? */
+h3 {
+	font-style: oblique; 
+}
+
+h3 { 
+	font-style: underline;
+}
+
+/*
+2. Find a cheat sheet or quick guide on CSS selectors,
+or refer to a cheat sheet you've already bookmarked. 
+What is a pseudoselector? Write a CSS rule that uses 
+a pseudoselector. */
+.job:hover {
+	background-color: lightgreen;
+}
+/*
+3. How can you use CSS to select the child element of 
+another element (for instance, a section inside another
+ section, or an li inside a ul but not inside an ol)? 
+ Add an example of such a rule in your CSS. 
+*/
+
+ul>li.featured {
+	text-decoration: underline;
+	font-style: italic;
+	text-transform: uppercase;
+}
