@@ -12,3 +12,11 @@ adopt = gets.chomp
 
 puts ("How old is the hamster?")
 age = gets.chomp
+
+
+puts ("Hamsters Data:")
+puts ("Hamsters Name: #{ham_name}")
+puts ("Hamsters Volume Level: #{loudness}")
+puts ("Hamsters Fur Color: #{color}")
+puts ("Hamsters Adoptable: #{adopt}")
+puts ("Hamsters Age: #{age}")
