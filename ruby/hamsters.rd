@@ -13,6 +13,10 @@ adopt = gets.chomp
 puts ("How old is the hamster?")
 age = gets.chomp
 
+# makes blank input equal nil
+# if age.empty?
+#   age = nil
+# end
 
 puts ("Hamsters Data:")
 puts ("Hamsters Name: #{ham_name}")
