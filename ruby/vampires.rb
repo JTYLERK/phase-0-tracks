@@ -18,9 +18,17 @@ until number_of_employees == 0
 	puts "Would you like to enroll in the company's health insurance? (Y or N)"
 	insurance = gets.chomp
 
+has_agllergies = false
+
+until has_agllergies
+	puts "do you have allergies?"
+	allergies = gets.chomp
+
+	has_allergies = allergies == "sunshine"
+end
+
 	number_of_employees = number_of_employees - 1 
 
-end
 
 
 if age == (2016 - birth_year) && reply == "y" ||  insurance == "y"
@@ -34,3 +42,6 @@ elsif name == "Drake Cula" || name == "Tu Fang"
 else
 	result = "Not really sure"
 end
+
+
+
