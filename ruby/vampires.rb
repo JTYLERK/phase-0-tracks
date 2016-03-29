@@ -1,3 +1,5 @@
+
+
 puts "how many employees are there? (Enter a number)"
 number_of_employees = gets.chomp
 
@@ -18,30 +20,36 @@ until number_of_employees == 0
 	puts "Would you like to enroll in the company's health insurance? (Y or N)"
 	insurance = gets.chomp
 
-has_agllergies = false
 
-until has_agllergies
-	puts "do you have allergies?"
+has_allergies = false
+
+until has_allergies
+	puts "List any allergies? When finished type done"
 	allergies = gets.chomp
+	if allergies == "sunshine"
+		has_allergies = true
+		break
+	elsif allergies =="done"
+	break
+	end
 
-	has_allergies = allergies == "sunshine"
-end
+
+	if age == (2016 - birth_year) && reply == "y" ||  insurance == "y"
+		result = "Probably not a vampire"
+	elsif age!= (2016 - birth_year) && reply == "n" || insurance == "n"
+		result = "Probably a vampire"
+	elsif 	age != (2016 -birth_year) && reply == "n" && insurance =="n"
+		result = "Almost certainly a vampire"
+	elsif name == "Drake Cula" || name == "Tu Fang"
+		result = "Definitely a vampire"
+	else
+		result = "Not really sure"
+	end
+	
 
 	number_of_employees = number_of_employees - 1 
-
-
-
-if age == (2016 - birth_year) && reply == "y" ||  insurance == "y"
-	result = "Probably not a vampire"
-elsif age!= (2016 - birth_year) && reply == "n" || insurance == "n"
-	result = "Probably a vampire"
-elsif 	age != (2016 -birth_year) && reply == "n" && insurance =="n"
-	result = "Almost certainly a vampire"
-elsif name == "Drake Cula" || name == "Tu Fang"
-	result = "Definitely a vampire"
-else
-	result = "Not really sure"
 end
+
 
 ##plot twist
 
