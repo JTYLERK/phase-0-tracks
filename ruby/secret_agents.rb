@@ -40,3 +40,24 @@ encrypt("abc")
 encrypt("zed")
 decrypt("bdc")
 decrypt("afe")
+
+##ask user if they want to encrypt or decrypt
+
+puts "Would you like to encrypt or decrypt a password?"
+input = gets.chomp
+
+##ask for password
+
+puts "Please make a password"
+password = gets.chomp 
+
+if input == "encrypt"
+	encrypt(password)
+elsif input == "decrypt"
+	decrypt(password)
+else
+	puts "Please try again"
+
+
+
+
