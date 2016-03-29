@@ -46,7 +46,10 @@ decrypt("afe")
 puts "Would you like to encrypt or decrypt a password?"
 input = gets.chomp
 
-##ask for password
+
+#Driver Code
+
+#ask for password
 
 puts "Please make a password"
 password = gets.chomp 
