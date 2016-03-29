@@ -60,6 +60,7 @@ elsif input == "decrypt"
 	decrypt(password)
 else
 	puts "Please try again"
+end 
 
 
 
