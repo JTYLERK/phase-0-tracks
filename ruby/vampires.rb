@@ -20,6 +20,8 @@ until number_of_employees == 0
 	puts "Would you like to enroll in the company's health insurance? (Y or N)"
 	insurance = gets.chomp
 
+end
+
 
 has_allergies = false
 
