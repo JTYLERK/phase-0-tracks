@@ -16,6 +16,9 @@ def encrypt(apple)
 	end
 end
 
+##set the index for each letter in the string
+##for every character in the string find position and subtract 1
+
 def decrypt(banana)
 	index = 0
 	alphabet ="abcdefghijklmnopqrstuvwxyz"
