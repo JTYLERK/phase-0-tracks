@@ -6,3 +6,18 @@ Select desired floor
 Elevator will start moving
 once it arrives doors will open
 step outside the elevator when doors open on selected floor
+
+
+#algorithm for washing hair
+
+wet hair
+pour shampoo in hands
+lather shampoo in hair
+rinse hair with water
+	if hair still has shampoo
+		- continue to rinse with water
+	else 
+		- pour conditioner in hand
+lather conditioner in hair
+rinse hair with water
+dry hair
