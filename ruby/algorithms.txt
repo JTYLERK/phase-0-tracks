@@ -1,0 +1,8 @@
+start by stepping into the elevator
+locate buttons that are numbered.
+Determine the desired floor 
+Find desired floor button number
+Select desired floor
+Elevator will start moving
+once it arrives doors will open
+step outside the elevator when doors open on selected floor
