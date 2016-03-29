@@ -33,3 +33,10 @@ def decrypt(banana)
 		index += 1
 	end
 end
+
+##test the method below
+
+encrypt("abc")
+encrypt("zed")
+decrypt("bdc")
+decrypt("afe")
