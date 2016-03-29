@@ -16,3 +16,17 @@ def encrypt(apple)
 	end
 end
 
+def decrypt(banana)
+	index = 0
+	alphabet ="abcdefghijklmnopqrstuvwxyz"
+	while ind < banana.length
+		litera = banana[ind]
+		index_in_alphabet = alphabet.index(litera)
+		if index_in_alphabet == 0
+			puts "z"
+		else
+			puts alphabet[index_in_alphabet - 1]
+		end
+		index += 1
+	end
+end
