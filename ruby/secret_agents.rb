@@ -20,7 +20,7 @@ end
 ##for every character in the string find position and subtract 1
 
 def decrypt(banana)
-	index = 0
+	ind = 0
 	alphabet ="abcdefghijklmnopqrstuvwxyz"
 	while ind < banana.length
 		litera = banana[ind]
@@ -30,7 +30,7 @@ def decrypt(banana)
 		else
 			puts alphabet[index_in_alphabet - 1]
 		end
-		index += 1
+		ind += 1
 	end
 end
 
