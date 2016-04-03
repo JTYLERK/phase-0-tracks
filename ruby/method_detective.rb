@@ -23,6 +23,9 @@ puts
 
 p "the usual".insert(-1, ' suspects')
 p "the usual" << " suspects"
+p "the usual" + " suspects"
+p "the usual".concat(" suspects")
+
 #=> “the usual suspects”
 puts
 
