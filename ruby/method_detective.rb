@@ -33,15 +33,17 @@ p " suspects".insert(0, "the usual")
 #=> “the usual suspects”
 puts 
 
-# “The case of the disappearing last letter”.<???>
+
+p "The case of the disappearing last letter".chop
+p "The case of the disappearing last letter".byteslice(0...39)
 # => “The case of the disappearing last lette”
 puts 
 
-# “The mystery of the missing first letter”.<???>
+# "The mystery of the missing first letter".<???>
 # => “he mystery of the missing first letter”
 puts
 
-# “Elementary  ,    my   dear      Watson!”.<???>""
+# "Elementary  ,    my   dear      Watson!".<???>""
 # => “Elementary, my dear Watson!”
 puts
 
