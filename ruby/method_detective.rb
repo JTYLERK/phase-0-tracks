@@ -4,37 +4,57 @@
 # When there's more than one suspect who could have
 # committed the crime, add additional calls to prove it.
 
-# “iNvEsTiGaTiOn”.<???>
+p "iNvEsTiGaTiOn".swapcase
 # => “InVeStIgAtIoN”
+puts
 
-# “zom”.<???>
+p "zom".gsub("o","oo")
+p "zom".sub("o","oo")
 # => “zoom”
+puts 
 
 # “enhance”.center
 "enhance".center(20)
 #=> “    enhance    ”
+puts
 
-# “Stop! You’re under arrest!”.<???>
+p "Stop! You’re under arrest!".upcase
 # => “STOP! YOU’RE UNDER ARREST!”
+puts
 
-# “the usual”.<???>
+p "the usual".insert(-1, ' suspects')
+p "the usual" << " suspects"
+p "the usual" + " suspects"
+p "the usual".concat(" suspects")
+puts
 #=> “the usual suspects”
 
-#“ suspects”.<???>
+p " suspects".rjust(18, "the usual ")
+p " suspects".insert(0, "the usual")
 #=> “the usual suspects”
+puts 
 
-# “The case of the disappearing last letter”.<???>
+
+p "The case of the disappearing last letter".chop
+p "The case of the disappearing last letter".byteslice(0...39)
 # => “The case of the disappearing last lette”
+puts 
 
-# “The mystery of the missing first letter”.<???>
+p "The mystery of the missing first letter".delete("T")
+p "The mystery of the missing first letter".slice(1..39)
 # => “he mystery of the missing first letter”
+puts
 
-# “Elementary  ,    my   dear      Watson!”.<???>""
+p "Elementary  ,    my   dear      Watson!".squeeze
+p "Elementary  ,    my   dear      Watson!".split.join(" ")
 # => “Elementary, my dear Watson!”
+puts
 
-#“z”.<???>
+p "z".codepoints
 # => 122 
 # (What is the significance of the number 122 in relation to the character z?)
+puts
 
-#“How many times does the letter ‘a’ appear in this string?”.<???>
+p "How many times does the letter ‘a’ appear in this string?".count("a")
 #=> 4
+puts

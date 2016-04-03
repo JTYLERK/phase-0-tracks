@@ -9,10 +9,10 @@ until number_of_employees == 0
 	name = gets.chomp
 
 	puts "how old are you?"
-	age = gets.chomp
+	age = gets.chomp.to_i
 
 	puts "what year were you born?"
-	birth_year = gets.chomp
+	birth_year = gets.chomp.to_i
 
 	puts "Our company cafeteria serves garlic bread. Should we order some for you?"
 	reply = gets.chomp
@@ -20,21 +20,20 @@ until number_of_employees == 0
 	puts "Would you like to enroll in the company's health insurance? (Y or N)"
 	insurance = gets.chomp
 
-end
 
+	has_allergies = false
 
-has_allergies = false
-
-until has_allergies
-	puts "List any allergies? When finished type done"
-	allergies = gets.chomp
-	if allergies == "sunshine"
-		has_allergies = true
-		break
-	elsif allergies =="done"
-	break
+	while has_allergies
+		puts "List any allergies? When finished type done"
+		allergies = gets.chomp
+			
+		if allergies == "sunshine"
+		   has_allergies = true
+			break
+		elsif allergies =="done"
+			break
+		end
 	end
-
 
 	if age == (2016 - birth_year) && reply == "y" ||  insurance == "y"
 		result = "Probably not a vampire"
@@ -47,8 +46,6 @@ until has_allergies
 	else
 		result = "Not really sure"
 	end
-	
-
 	number_of_employees = number_of_employees - 1 
 end
 
