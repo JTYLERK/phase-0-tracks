@@ -25,29 +25,31 @@ p "the usual".insert(-1, ' suspects')
 p "the usual" << " suspects"
 p "the usual" + " suspects"
 p "the usual".concat(" suspects")
-
-#=> “the usual suspects”
 puts
+#=> “the usual suspects”
 
 p " suspects".rjust(18, "the usual ")
 p " suspects".insert(0, "the usual")
-
-
 #=> “the usual suspects”
 puts 
 
 # “The case of the disappearing last letter”.<???>
 # => “The case of the disappearing last lette”
+puts 
 
 # “The mystery of the missing first letter”.<???>
 # => “he mystery of the missing first letter”
+puts
 
 # “Elementary  ,    my   dear      Watson!”.<???>""
 # => “Elementary, my dear Watson!”
+puts
 
 #“z”.<???>
 # => 122 
 # (What is the significance of the number 122 in relation to the character z?)
+puts
 
-#“How many times does the letter ‘a’ appear in this string?”.<???>
+p "How many times does the letter ‘a’ appear in this string?".count("a")
 #=> 4
+puts
