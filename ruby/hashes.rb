@@ -76,3 +76,21 @@ the field name. Ex: if you want to change the name type :name.
  input = gets.chomp
 
 
+puts "Pick which you would like to change. Type one of the following: name/age/childre/theme/rooms/parties/budget/place."
+change = gets.chomp
+
+puts "What would you like it to be now?"
+new_value = gets.chomp
+user_info[change.to_sym] = new_value
+
+puts "
+	name: #{user_info[:name]}
+	age: #{user_info[:age]}
+	chilren: #{user_info[:children]}
+	theme: #{user_info[:theme]}
+	rooms: #{user_info[:rooms]}
+	color: #{user_info[:color]}
+	likes to host: #{user_info[:parties]}
+	budget: #{user_info[:budget]}
+	location: #{user_info[:place]}
+"
