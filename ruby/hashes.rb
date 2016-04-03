@@ -14,6 +14,8 @@ City or Suburbs?(pick one):
 	
 =end
 
+user_info = {}
+
 p "What is your name?: "
 name = gets.chomp
 puts
@@ -42,10 +44,15 @@ p "Do you like to host parties?: "
 host_parties = gets.chomp
 puts
 
-p "What is your budget?: "
+p "What is your budget? (use numbers to express dolar amount) "
 budget = gets.chomp.to_i
 puts
 
 p "Where do you live? (Pick one: City or Suburbs): "
 place = gets.chomp
 puts
+
+
+	
+
+
