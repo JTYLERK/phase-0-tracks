@@ -44,7 +44,8 @@ p "The mystery of the missing first letter".slice(1..39)
 # => “he mystery of the missing first letter”
 puts
 
-# "Elementary  ,    my   dear      Watson!".<???>""
+p "Elementary  ,    my   dear      Watson!".squeeze
+p "Elementary  ,    my   dear      Watson!".split.join(" ")
 # => “Elementary, my dear Watson!”
 puts
 
