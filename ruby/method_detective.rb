@@ -45,7 +45,7 @@ puts
 # => “Elementary, my dear Watson!”
 puts
 
-#“z”.<???>
+p "z".codepoints
 # => 122 
 # (What is the significance of the number 122 in relation to the character z?)
 puts
