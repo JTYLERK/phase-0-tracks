@@ -13,12 +13,13 @@ p "zom".sub("o","oo")
 # => “zoom”
 puts 
 
-"enhance".center(15)
+p "enhance".center(15)
 #=> “    enhance    ”
 puts
 
-# “Stop! You’re under arrest!”.<???>
+p "Stop! You’re under arrest!".upcase
 # => “STOP! YOU’RE UNDER ARREST!”
+puts
 
 # “the usual”.<???>
 #=> “the usual suspects”
