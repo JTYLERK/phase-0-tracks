@@ -22,11 +22,14 @@ p "Stop! You’re under arrest!".upcase
 puts
 
 p "the usual".insert(-1, ' suspects')
-
+p "the usual" << " suspects"
 #=> “the usual suspects”
 puts
 
 p " suspects".rjust(18, "the usual ")
+p " suspects".insert(0, "the usual")
+
+
 #=> “the usual suspects”
 puts 
 
