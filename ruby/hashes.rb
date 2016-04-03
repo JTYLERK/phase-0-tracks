@@ -93,7 +93,7 @@ puts "
 	location: #{user_info[:place]}
 "
 
-elsif input == "None" || input == "none"
+elsif input == "Yes" || input == "y"
 
 	puts "
 	name: #{user_info[:name]}
