@@ -76,7 +76,7 @@ the field name. Ex: if you want to change the name type :name.
  input = gets.chomp
 
 
-if input == "yes" || input == "y"
+if input == "No" || input == "n"
 	puts "Pick which you would like to change. Type one of the following: name/age/childre/theme/rooms/parties/budget/place."
 	change = gets.chomp
 	puts "What would you like it to be now?"
