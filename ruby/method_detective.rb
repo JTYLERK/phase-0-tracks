@@ -39,7 +39,8 @@ p "The case of the disappearing last letter".byteslice(0...39)
 # => “The case of the disappearing last lette”
 puts 
 
-# "The mystery of the missing first letter".<???>
+p "The mystery of the missing first letter".delete("T")
+p "The mystery of the missing first letter".slice(1..39)
 # => “he mystery of the missing first letter”
 puts
 
