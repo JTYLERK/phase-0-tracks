@@ -10,7 +10,8 @@
 # “zom”.<???>
 # => “zoom”
 
-# “enhance”.<???>
+# “enhance”.center
+"enhance".center(20)
 #=> “    enhance    ”
 
 # “Stop! You’re under arrest!”.<???>
