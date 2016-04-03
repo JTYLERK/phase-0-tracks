@@ -70,10 +70,8 @@ puts "
 "
 # allow user to make changes to submission
 
-puts "Is all the information above correct? If you want to change type 
-the field name. Ex: if you want to change the name type :name.
- If no changes are needed type 'none'."
- input = gets.chomp
+puts "Is all the information above correct?"
+input = gets.chomp
 
 
 if input == "No" || input == "n"
