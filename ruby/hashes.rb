@@ -13,3 +13,39 @@ What is their budget?:
 City or Suburbs?(pick one):
 	
 =end
+
+p "What is your name?: "
+name = gets.chomp
+puts
+
+p "How old are you?: "
+age = gets.chomp.to_i
+puts
+
+p "How many children do you have?: "
+children = gets.chomp.to_i
+puts
+
+p "What decor theme would you like?: "
+theme = gets.chomp
+puts
+
+p "How many rooms do you have?: "
+rooms = gets.chomp
+puts
+
+p "What is your favorite color?: "
+color = gets.chomp
+puts
+
+p "Do you like to host parties?: "
+host_parties = gets.chomp
+puts
+
+p "What is your budget?: "
+budget = gets.chomp.to_i
+puts
+
+p "Where do you live? (Pick one: City or Suburbs): "
+place = gets.chomp
+puts
