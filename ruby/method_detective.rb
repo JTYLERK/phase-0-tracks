@@ -21,7 +21,7 @@ p "Stop! You’re under arrest!".upcase
 # => “STOP! YOU’RE UNDER ARREST!”
 puts
 
-# “the usual”.<???>
+p "the usual".insert(-1, ' suspects')
 #=> “the usual suspects”
 
 #“ suspects”.<???>
