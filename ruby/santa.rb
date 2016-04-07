@@ -1,13 +1,14 @@
 class Santa
 	
-	reindeer_ranking = ["Rudolph", "Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donner", "Blitzen"]
-	age = 0
+	@reindeer_ranking = ["Rudolph", "Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donner", "Blitzen"]
+	
 
 	def initialize(gender, ethnicity, species)
 		puts "initializing Santa instance"
 		@gender = gender
 		@ethnicity = ethnicity
 		@species = species
+		@age = 0
 	end
 	
 	def speak
@@ -18,6 +19,10 @@ class Santa
 		puts "That was a good #{cookie}!"	
 	end
 
+	def celebrate_birthday
+		@age += 1	
+		p "Happy Birthday! You are now #{@age} year's old!"
+	end
 end 
 
 #DRIVER CODE--------------------------
@@ -25,6 +30,8 @@ end
 test = Santa.new("male", "pirate", "thai")
 test.speak
 test.eat_milk_and_cookies("snickerdoodle")
+test.celebrate_birthday
+
 
 #Release 1 ---------------------------
 
