@@ -5,8 +5,8 @@ class Santa
 
 	def initialize(gender, ethnicity, species)
 		puts "initializing Santa instance"
-		@gender = " "
-		@ethnicity = " "
+		@gender = gender
+		@ethnicity = ethnicity
 		@species = species
 	end
 	
