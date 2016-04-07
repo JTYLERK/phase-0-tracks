@@ -13,3 +13,7 @@ class Santa
 	end
 
 end 
+
+test = Santa.new
+test.speak
+test.eat_milk_and_cookies("snickerdoodle")
