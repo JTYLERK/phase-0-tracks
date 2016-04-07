@@ -23,16 +23,31 @@ class Santa
 		@age += 1	
 		p "Happy Birthday! You are now #{@age} year's old!"
 	end
+
+	def get_mad_at(reindeer)
+		puts "You've been a bad reindeer, #{reindeer} >=] !"
+	end
+
+	#getter methods
+
+	def gender
+		@gender
+	end
+
+	def ethnicity
+		@ethnicity
+	end
+
 end 
 
 #DRIVER CODE--------------------------
 
-test = Santa.new("male", "pirate", "thai")
-test.speak
-test.eat_milk_and_cookies("snickerdoodle")
-test.celebrate_birthday
-
-
+santa = Santa.new("male", "Thai", "pirate")
+santa.speak
+santa.eat_milk_and_cookies("snickerdoodle")
+santa.celebrate_birthday
+santa.get_mad_at("Rudolph")
+puts "#{santa.ethnicity}"
 #Release 1 ---------------------------
 
 santas = []
