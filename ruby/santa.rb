@@ -1,7 +1,12 @@
 class Santa
 	
+	reindeer_ranking = ["Rudolph", "Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donner", "Blitzen"]
+	age = 0
+	
 	def initialize
 		puts "initializing Santa instance"
+		@gender = " "
+		@ethnicity = " "
 	end
 	
 	def speak
