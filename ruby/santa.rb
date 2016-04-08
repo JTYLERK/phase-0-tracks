@@ -64,7 +64,23 @@ example_genders.length.times do |x|
 		santas << Santa.new(example_genders[x], examples_ethnicities[x], examples_santa_species[x], examples_names[x])
 		end
 
+#Release 4 -----------------------------
 
+		
+p santas 
+puts 
+
+puts" How many Santa's do you want to enter? Pick 1 - 100."
+number = gets.chomp.to_i
+
+number.times do 
+	new_santa = Santa.new(examples_ethnicities.sample, example_genders.sample, examples_names.sample, examples_santa_species.sample)
+	p new_santa.age =  rand(0..140)
+	p "Here is the new instance #{new_santa}"
+	p new_santa.age
+	p new_santa.gender
+	p new_santa.ethnicity
+end 
 
 
 
