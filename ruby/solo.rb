@@ -10,9 +10,9 @@ class X_Men
 	def initialize
 		puts "initializing X-Men instance"
 		@mutant_level = [1,2,3,4,5]
-		@super_power = ["telepathy", "shapeshifting", "laser eyes", "health regeneration", "weather control", "metal control" ]
-		@X-men = "The good guys"
-		@brotherhood = "Bad guys" 
+		@mutant = {"Jean Gray" => "Telepathy", "Mystique" => "shapeshifting", "Cyclops" => "laser eyes", "Wolverene" => "health regeneration", "Storm" => "weather control", "Magnito" => "metal control" }
+		@gender = ["Male", "Female"]
+
 	end
 end
 
