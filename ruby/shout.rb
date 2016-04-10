@@ -28,7 +28,7 @@ end
 
 #driver code -------------------------
 crazy_person = Crazy.new
-crazy_person.shouting("I forgot to take my meds today")
+crazy_person.shouting("I forgot to take my meds today!")
 
 captain = Drill_sergeant.new
 captain.shouting("Drop down and give me 50 maggot!")
