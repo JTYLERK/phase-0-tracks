@@ -8,12 +8,14 @@ have at least 3 methods
 #define a class 
 class X_Men_Characters
 	def initialize
-		puts "initializing new X-Men character."
-		@mutant_level = [1,2,3,4,5]
-		@mutant = {"Jean Gray" => "Telepathy", "Mystique" => "shapeshifting", "Cyclops" => "laser eyes", "Wolverene" => "health regeneration", "Storm" => "weather control", "Magnito" => "metal control" }
-		@gender = ["Male", "Female"]
-
+		puts "initializing new X-Men character"
+	
 	end
+
+	@mutant_level = [1,2,3,4,5]
+	@mutant = {"Jean Gray" => "Telepathy", "Mystique" => "shapeshifting", "Cyclops" => "laser eyes", "Wolverene" => "health regeneration", "Storm" => "weather control", "Magnito" => "metal control" }
+	@gender = ["Male", "Female"]
+
 
 	def attacks
 		mutant_array = @mutant.to_a
@@ -47,14 +49,5 @@ num_of_players = gets.chomp.to_i
 num_of_players.times do 
 	new_player = X_Men_Characters.new	
 end
-
-
-
-
-
-
-
-
-
 
 
