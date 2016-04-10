@@ -1,28 +1,18 @@
-
-class TodoList
-
-  def initialize(chore_item_1, chore_item_2)
-    @chore_item_1 = chore_item_1
-    @chore_item_2 = chore_item_2
-    @chores = []
-    @chores << chore_item_1
-    @chores << chore_item_2
+class Calculator
+  def add(x,y)
+    x + y
   end
 
-  def get_items
-    @chores
+  def subtract(x,y)
+    x - y
   end
 
-  def add_item(list_item)
-    @chores << list_item
+  def multiply(x,y)
+    x * y
   end
 
-  def delete_item(list_item)
-    @chores.delete(list_item)
-  end
-
-  def get_item(index)
-    @chores[index]
+  def divide(x,y)
+    x / y
   end
 end
 
