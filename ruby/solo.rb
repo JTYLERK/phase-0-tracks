@@ -66,3 +66,24 @@ until idx == quantity
 	cars.push("#{car[0]} #{car[1]} #{car[2]} #{car[3]}")
 
 end
+
+
+puts 
+puts "Below are the car's you just built"
+
+	cars.each { |x|
+		current_car = x.split(' ')
+		puts "
+	Model: #{current_car[0]} 
+	Color: #{current_car[1]}
+	HP: #{current_car[2]} 
+	Speed: #{current_car[3]}
+	"
+		
+		r = current_car[3].to_i
+		p new_car.speed(r)
+		p new_car.drives
+		puts
+}
+
+	
