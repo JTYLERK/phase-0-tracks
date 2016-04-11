@@ -28,3 +28,41 @@ attr_accessor :hp, :mph
 end
 
 	
+
+puts "Welcome to the Carmaker 3000!!!"
+puts "How many Car's would you like to generate?"
+quantity = gets.chomp.to_i
+puts
+
+cars = []
+count = 1
+idx = 0
+until idx == quantity 
+	car = []
+	puts
+	puts "What model should car #{count} be?"
+	model = gets.chomp
+	car.push(model)
+
+	puts "What color would you like car #{count} to be?"
+	color = gets.chomp
+	car.push(color)
+
+	puts "How much hourse power does car #{count} have?"
+	hp = gets.chomp
+	car.push(hp)
+	
+	puts "How fast can car #{count} go?"
+	mph = gets.chomp
+	car.push(mph)
+	
+	puts
+	new_car = Car.new(model, color, hp, mph)
+
+	idx += 1
+	count += 1
+	
+	#add each morty to the hold then spit back their stats
+	cars.push("#{car[0]} #{car[1]} #{car[2]} #{car[3]}")
+
+end
