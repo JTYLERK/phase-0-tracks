@@ -80,7 +80,24 @@ update(full_list, "ice cream", 1)
 p full_list
 print_items(full_list)
 
+# comments 
+# What did you learn about pseudocode from working on this challenge?
+# Its really helpful to write out everything you are trying to accomplish. 
+# It breaks it down step by step into small pieces.
+# What are the tradeoffs of using arrays and hashes for this challenge?
+# the hashes stores a value with each key. In this one we found that each 
+# key (item) had a value(quantity) that was needed. Arrays would of still worked
+# but we would need to zip them together and make sure that each item in the array 
+# lined up with the proper quantity in the other array. So hashes just made more sense. 
+# What does a method return?
+# They return whatever we set as the return value of that method. 
+# What kind of things can you pass into methods as arguments?
+# basically any data structure you want as long as the method is set up to take in the parameters correctly.
+# How can you pass information between methods?
 
-
+# What concepts were solidified in this challenge, and what concepts are still confusing?
+# setting up methods to take in arguments properly and pass them thorugh the method.
+# refactoring is still confusing. I will have to a further look at what they mean. my 
+# initial thought was that it was a way to simplify your code.
 
 
