@@ -13,6 +13,7 @@ p "zom".sub("o","oo")
 # => “zoom”
 puts 
 
+
 # “enhance”.center
 "enhance".center(20)
 #=> “    enhance    ”
