@@ -22,3 +22,6 @@ function Longestword(array) {
 
 
 
+// DRIVER CODE
+var sample = ["long phrase","longest phrase","longer phrase", "this is the longest phrase"];
+console.log(Longestword(sample));
