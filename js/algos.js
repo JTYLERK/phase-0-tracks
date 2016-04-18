@@ -76,4 +76,7 @@ function random_word_gen(integer) {
 	return array;
 }
 
+// Driver code
+console.log(random_word_gen(3));
+
 
