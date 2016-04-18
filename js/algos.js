@@ -21,7 +21,19 @@ function Longestword(array) {
 }
 
 
-
 // DRIVER CODE
 var sample = ["long phrase","longest phrase","longer phrase", "this is the longest phrase"];
 console.log(Longestword(sample));
+
+
+
+// RELEASE 1
+// Create a matching function that takes two objects (2 parameters) and checks to see if the objects share
+// at least one key-value pair
+// set variable to 0 to check when match is found
+// need two loops. one sets the object to compare to find a match
+// if match found return true
+// else match not found return false
+
+
+
