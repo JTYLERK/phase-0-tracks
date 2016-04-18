@@ -43,5 +43,22 @@ function sharing (object1, object2) {
 			return false;
 }
 
+var human1 = {name: "Mike", age: 27};
+var human2 = {name: "Jeff", age: 26};
+var human3 = {name: "Mia", age: 29};
+var human4 = {name: "Holden", age: 29};
+
+// DRIVER CODE
+console.log(sharing(human1, human2)); // should be false age is different
+console.log(sharing(human3, human4)); // should be true age is the same
+
+
+// Release 2
+// create a function that takes an integer as a parameter 
+// need empty array to store strings
+// set variable that contains alphabet
+// set loop to generate random word 1-10 characters in length. then store as variable and push to empty array
+
+
 
 
