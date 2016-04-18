@@ -7,8 +7,12 @@ function reverse(str) {
 
 
 //DRIVE CODE TEST FUNCTION
-var store = console.log(reverse("try to reverse this string"));
+console.log(reverse("try to reverse this string"));
+var store_string = reverse("try to reverse this string");
+
 
 if (1==1) {
-console.log(store);
+console.log(store_string);
 }
+
+
