@@ -59,6 +59,21 @@ console.log(sharing(human3, human4)); // should be true age is the same
 // set variable that contains alphabet
 // set loop to generate random word 1-10 characters in length. then store as variable and push to empty array
 
+function random_word_gen(integer) {
+	this.array = []; //set empty array
+	this.alphabet = "abcedfghijklmnopqrstuvwxyz"; // set alphabet as variable
 
+		for (var i = 0; i < integer; i++) { // start loop
+			word_to_push = ""; //set blank variable to store random word in, will push to array
+			
+			for (var a = 0; a < (Math.floor(Math.random() * 10) + 1); a++){
+			word_to_push = word_to_push + alphabet[Math.floor(Math.random() * 26)];
+				
+
+		}
+		array.push(word_to_push);
+	}
+	return array;
+}
 
 
