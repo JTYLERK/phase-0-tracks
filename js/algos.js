@@ -80,3 +80,9 @@ function random_word_gen(integer) {
 console.log(random_word_gen(3));
 
 
+for (var i = 0; i < 10; i++) { //loop 10 times
+  var testarray = random_word_gen(6);
+  console.log(testarray)
+  console.log(Longestword(testarray))
+}
+
